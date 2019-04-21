@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>    
+    <ion-title class="text-primary">
+       <ion-icon name="home" item-start class="text-primary"></ion-icon>
+       Home
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content  class="auth-page">   
+   <ion-grid>
+      <ion-row align-items-center>
+        <ion-col>
+          <div class="logoHome"></div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+            <ion-card>                
+                <ion-card-header>       
+                   <h2>Seja Bem Vindo(a)!</h2>     
+                </ion-card-header>    
+                <ion-card-content> 
+                   <div class="imgHome"></div>
+                   <div>
+                      Olá {{userInfo}},<br>
+                      Vamos iniciar a sua nova jornada?                     
+                   </div>             
+                </ion-card-content>
+              </ion-card> 
+        </ion-col>
+      </ion-row>
+   </ion-grid>     
+</ion-content>
